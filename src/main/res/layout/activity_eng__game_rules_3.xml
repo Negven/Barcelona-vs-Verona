@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgraund"
+    tools:context="android.com.barcelonavsverona.game.eng.rules.Eng_Game_rules_3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:text="Right or wrong?"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="200dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="390dp"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:text="The card you just submitted is compared with an adjacent card in the field. Other cards are not taken into account. The cards are marked with the geographical latitude and longitude of each city. If the map is on the east-west axis, the data with arrows to the left (west) or to the right (east) are taken into account.If the card is on the north-south axis, then the coordinates with the arrow up (^ north) are taken into account. It is believed that the cards are located next to them if the coordinate values are in their order of magnitude.On the meridian crossing England, France, Spain, the direction is changing. From it, the coordinates for the West and the East begin from scratch. The location of the map with coordinates to the West will always be to the left of the coordinate map to the East. Sometimes it may happen that two cards have the same coordinates. Then it does not matter how they are located relative to each other."/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="200dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="200dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="40dp"
+                           android:layout_marginTop="70dp"
+                           android:orientation="vertical">
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="40dp"
+                               android:orientation="horizontal">
+
+                               <LinearLayout
+                                   android:layout_width="155dp"
+                                   android:layout_height="40dp"
+                                   android:orientation="vertical">
+
+                                    <ImageButton
+                                        android:id="@+id/btn_previous_eng_slide"
+                                        android:layout_width="65dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="right"
+                                        android:background="@drawable/btn_previous_slide_img" />
+
+                                </LinearLayout>
+
+                               <LinearLayout
+                                   android:layout_width="50dp"
+                                   android:layout_height="40dp"
+                                   android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="3/5"
+                                        android:textAlignment="center"
+                                        android:textColor="@color/white"
+                                        android:textSize="25dp" />
+                                </LinearLayout>
+
+                               <LinearLayout
+                                   android:layout_width="match_parent"
+                                   android:layout_height="40dp"
+                                   android:orientation="vertical">
+
+                                   <ImageButton
+                                       android:id="@+id/btn_next_eng_slide"
+                                       android:layout_width="65dp"
+                                       android:layout_height="match_parent"
+                                       android:background="@drawable/btn_next_slide_img" />
+                                </LinearLayout>
+                        </LinearLayout>
+                       </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

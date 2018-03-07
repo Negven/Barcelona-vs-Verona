@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgraund"
+    tools:context="android.com.barcelonavsverona.game.eng.rules.Eng_Game_rules_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:text="Right or wrong?(2)"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="200dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:text="If the card is incorrectly installed and it has been proven, the player who has indicated it receives a token from the player who made the mistake and the card is removed from the game.
+If the card has been correctly installed but has been challenged, the player who mistakenly assumes will give his token to the cardholder. Both cards turn upside down and remain in the field. If someone does not have a token to give as a fee for an error, he will give it out of a joint bank (out of the box).
+If you do not have enough tokens, exchange your 5 tokens on any card that does not accept participation in the game. Each such card will cost 5 tokens at the end of the game.
+"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="200dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="70dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="155dp"
+                                android:layout_height="40dp"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/btn_previous_eng_slide"
+                                    android:layout_width="65dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="right"
+                                    android:background="@drawable/btn_previous_slide_img" />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="50dp"
+                                android:layout_height="40dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="4/5"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="25dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/btn_next_eng_slide"
+                                    android:layout_width="65dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/btn_next_slide_img" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

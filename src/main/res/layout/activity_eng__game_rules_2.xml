@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgraund"
+    tools:context="android.com.barcelonavsverona.game.eng.rules.Eng_Game_rules_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:text="COURSE OF GAME"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="200dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:textSize="16dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:text="The game starts with the person who was the last player in Italy. If none of the players were in Italy, the youngest starts. As always, the move to the next player moves clockwise. In turn, the player takes the card and reads the name of the city or monument. WARNING! No one should see the coordinates on the back of the card! Now it is necessary to determine on what axis it is necessary to place the card: north-south or east-west.
+At the beginning of the game, only the initial card is the reference city for placing your card. The player has four options where to put the card: above the starting, below, to the left of it, or to the right. The next player takes the upper card from the stack and can put it as follows: next to the playing field or the card that is already on the table; between cards that are already located; between the card and the field, but only in two directions: north-south, east-west. Cards should create a cross on the table.
+"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="200dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="200dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="80dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="155dp"
+                                android:layout_height="40dp"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/btn_previous_eng_slide"
+                                    android:layout_width="65dp"
+                                    android:background="@drawable/btn_previous_slide_img"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="right"/>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="50dp"
+                                android:layout_height="40dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="2/5"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="25dp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:orientation="vertical">
+                                <ImageButton
+                                    android:id="@+id/btn_next_eng_slide"
+                                    android:layout_width="65dp"
+                                    android:background="@drawable/btn_next_slide_img"
+                                    android:layout_height="match_parent" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
