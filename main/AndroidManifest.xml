@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ivanshevchenko.barcelona_vs_verona">
+    package="android.com.barcelonavsverona">
 
     <application
         android:allowBackup="true"
@@ -9,20 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Activities.MainMenu"
-            android:screenOrientation="portrait">
+        <activity android:name=".game.eng.Eng_Title_window">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Activities.OnlineOfflineGame"
-            android:screenOrientation="portrait" />
-        <activity android:name=".Activities.Settings" />
-        <activity android:name=".Activities.GameRules"></activity>
+        <activity android:name=".game.eng.Eng_Types_of_game" />
+        <activity android:name=".game.eng.Eng_Settings" />
+        <activity android:name=".game.eng.rules.Eng_Game_rules_1" />
+        <activity android:name=".game.eng.rules.Eng_Game_rules_2" />
+        <activity android:name=".game.eng.rules.Eng_Game_rules_3" />
+        <activity android:name=".game.eng.rules.Eng_Game_rules_4" />
+        <activity android:name=".game.eng.rules.Eng_Game_rules_5" />
+        <activity android:name=".game.eng.rules.Eng_Game_rules_6"></activity>
     </application>
 
 </manifest>
