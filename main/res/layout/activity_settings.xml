@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ivanshevchenko.barcelona_vs_verona.Settings">
+    android:background="@drawable/baxkground"
+    tools:context="com.example.ivanshevchenko.barcelona_vs_verona.Activities.Settings">
 
 </android.support.constraint.ConstraintLayout>

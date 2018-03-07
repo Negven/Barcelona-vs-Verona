@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainMenu"
+            android:name=".Activities.MainMenu"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,10 +19,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".OnlineOfflineGame"
+            android:name=".Activities.OnlineOfflineGame"
             android:screenOrientation="portrait" />
-        <activity android:name=".Settings" />
-        <activity android:name=".GameRules"></activity>
+        <activity android:name=".Activities.Settings" />
+        <activity android:name=".Activities.GameRules"></activity>
     </application>
 
 </manifest>

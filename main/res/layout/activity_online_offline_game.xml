@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/baxkground"
-    tools:context="com.example.ivanshevchenko.barcelona_vs_verona.OnlineOfflineGame">
+    tools:context="com.example.ivanshevchenko.barcelona_vs_verona.Activities.OnlineOfflineGame">
 
 </android.support.constraint.ConstraintLayout>
